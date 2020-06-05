@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ALL */
+
+body{
+    height: 100%;
+    background-color: floralwhite;
+}
+
+/* ProductivList */
+
+h1{
+    font-size: 52px;
+    font-weight: 500;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+/* "A bridge between goals and accomplishments" */
+
+h3{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+/* Input section */
+
+.division{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Task input */
+
+.input{
+    padding: 10px 10px;
+    height: 40px;
+    outline: none;
+    background-color: whitesmoke;
+    font-size: 18px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+/* Tombol tambah task */
+
+.tambah{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    outline: none;
+    font-size: 20px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+
+/* Animasi tombol tambah */
+
+.tambah:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s ;
+}
+
+/* List ketika sudah ditambah */
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.item{
+    padding: 8px;
+    margin-bottom: 24px;
+    border-bottom: 4px solid black;
+}
+
+.isi{
+    background:none;
+    outline: none;
+    color: black;
+    border: none;
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.remove{
+    font-size: 20px;
+    margin: 0 0.75rem;
+    background: none;
+    outline: none;
+    color:black;
+    border: none;
+    cursor: pointer;
+}
+
+/* Animasi tombol remove */
+
+.remove:hover{
+    transition-duration: 0.5s;
+    color: red;
+}
+
+/* // Tombol checkbox */
+
+.finish{
+    margin-right : 10px;
+    border-radius: 50%;
+    background-color: grey;
+    border-width: 2px;
+}
