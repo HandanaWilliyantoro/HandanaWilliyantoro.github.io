@@ -23,7 +23,7 @@ class item{
         // Tombol remove
 
         let remove = document.createElement("button");
-        remove.innerHTML = "x"
+        remove.innerHTML = "<i class = 'fa fa-trash' ></i>"
         remove.classList.add('remove');
 
         // Tombol checkbox
@@ -47,7 +47,6 @@ class item{
     remove(item){
         container.removeChild(item)
     }
-
 }
 
 function check(){
@@ -58,9 +57,3 @@ function check(){
 }
 
 addButton.addEventListener('click', check);
-window.addEventListener('keydown', (a) => {
-    if(a.which === 13){
-        check();
-    }
-} 
-)
