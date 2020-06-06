@@ -9,6 +9,7 @@
 body{
     height: 100%;
     background-color: floralwhite;
+    margin-bottom: 120px;
 }
 
 /* ProductivList */
@@ -24,7 +25,7 @@ h1{
 /* "A bridge between goals and accomplishments" */
 
 h3{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 300;
     margin-bottom: 30px;
     text-align: center;
@@ -91,6 +92,7 @@ h3{
     padding: 8px;
     margin-bottom: 24px;
     border-bottom: 4px solid black;
+    animation: ease-in 10s;
 }
 
 .isi{
@@ -117,7 +119,7 @@ h3{
 
 .remove:hover{
     transition-duration: 0.5s;
-    color: red;
+    opacity: 60%;
 }
 
 /* // Tombol checkbox */
@@ -127,4 +129,36 @@ h3{
     border-radius: 50%;
     background-color: grey;
     border-width: 2px;
+}
+
+.footer{
+    position:fixed;
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    bottom: 0;
+    height: 120px;
+    border-top: 4px solid black ;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.projectPurpose{
+    position: relative;
+    text-align: center;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 32px;
+}
+
+.createdBy{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 26px;
+}
+
+.wrapper {
+    height:auto !important;
+    min-height:100%;
 }
