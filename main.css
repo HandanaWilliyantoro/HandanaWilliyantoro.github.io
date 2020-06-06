@@ -157,8 +157,3 @@ h3{
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 26px;
 }
-
-.wrapper {
-    height:auto !important;
-    min-height:100%;
-}
