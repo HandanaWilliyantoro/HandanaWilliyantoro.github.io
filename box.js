@@ -42,6 +42,18 @@ class item{
         // Tombol remove: Ketika diclick
 
         remove.addEventListener( 'click', () => this.remove(itemBox))
+        finish.addEventListener('click', finished);
+        function finished(){
+            if(finish.checked === true){
+                input.style.textDecoration = "line-through"
+                input.style.opacity = "50%"
+
+            }
+            else{
+                input.style.textDecoration = "none"
+                input.style.opacity = "100%"
+            }
+        }
     }
 
     remove(item){
@@ -55,5 +67,4 @@ function check(){
         input.value = ""
     }
 }
-
 addButton.addEventListener('click', check);
